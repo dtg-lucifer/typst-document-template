@@ -2,9 +2,9 @@
 // Master document template for executive, engineering, and technical reports.
 // Replicates the layout, typography, and visual polish of the Veritas Technical Report.
 
-#import "components/theme.typ": resolve-palette, current-theme
+#import "components/theme.typ": current-theme, resolve-palette
 #import "components/cover.typ": render-cover-page
-#import "components/toc.typ": outline-divider, format-toc-entry
+#import "components/toc.typ": format-toc-entry, outline-divider
 
 #let document-template(
   title: "Document Title",
@@ -73,7 +73,7 @@
             } else if date != none {
               str(date)
             }
-          ]
+          ],
         )
         v(-3pt)
         line(length: 100%, stroke: 0.4pt + p.border)
@@ -93,7 +93,7 @@
           ],
           text(size: 8.5pt, fill: p.text-muted, font: font, weight: "bold")[
             Page #page-num
-          ]
+          ],
         )
       }
     },
@@ -109,7 +109,7 @@
   )
 
   set par(
-    justify: true,
+    justify: false,
     leading: 0.72em,
     spacing: 1.1em,
   )
@@ -166,12 +166,15 @@
         columns: (auto, 1fr),
         column-gutter: 10pt,
         row-gutter: 3.5pt,
-        ..it.lines.map(line => (
-          align(right, text(fill: p.code.line-number, font: mono-font, size: 7.5pt, str(line.number))),
-          line
-        )).flatten()
+        ..it
+          .lines
+          .map(line => (
+            align(right, text(fill: p.code.line-number, font: mono-font, size: 7.5pt, str(line.number))),
+            line,
+          ))
+          .flatten()
       )
-    }
+    },
   )
 
   // Hyperlink styling
