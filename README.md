@@ -9,6 +9,11 @@ A modern, highly modular technical and executive document template for [Typst](h
 - [Visual Demos & PDF Downloads](#visual-demos--pdf-downloads)
 - [Overview & Visual Identity](#overview--visual-identity)
 - [Quick Start](#quick-start)
+  - [1. Prerequisites](#1-prerequisites)
+  - [2. Start in 30 Seconds](#2-start-in-30-seconds)
+  - [3. Essential Commands](#3-essential-commands)
+  - [4. Minimal Starter Boilerplate](#4-minimal-starter-boilerplate)
+  - [5. Recommended Editor Setup](#5-recommended-editor-setup)
 - [Project Structure](#project-structure)
 - [Automation & Makefile](#automation--makefile)
 - [Component Reference Guide](#component-reference-guide)
@@ -125,33 +130,86 @@ This template delivers a modern, executive design language:
 
 ## Quick Start
 
-### Minimal Document Example
+Get your professional document up and running in **under 30 seconds**.
 
-Create your document (e.g. `main.typ`):
+### 1. Prerequisites
+
+Ensure [Typst](https://typst.app/) (v0.11+) is installed on your system:
+
+| Platform | Installation Command |
+|:---|:---|
+| **macOS** | `brew install typst` |
+| **Linux (Arch)** | `sudo pacman -S typst` |
+| **Linux (Fedora)** | `sudo dnf install typst` |
+| **Linux / Ubuntu (Cargo)** | `cargo install --locked typst-cli` |
+| **Windows** | `winget install Typst.Typst` *(or `scoop install typst`)* |
+
+> [!TIP]
+> Verify your installation by running `typst --version` in your terminal.
+
+---
+
+### 2. Start in 30 Seconds
+
+```bash
+# 1. Clone the repository (or copy into your project)
+git clone https://github.com/dtg-lucifer/typst-document-template.git my-document
+cd my-document
+
+# 2. Launch the live preview watcher
+make watch
+
+# 3. Open main.typ in your editor — save changes and output.pdf updates in real-time!
+```
+
+> [!NOTE]
+> The template includes embedded fonts (`Roboto` and `SF Mono`) in `assets/fonts/`. `make watch` and `make build` pass the `--font-path assets/fonts` flag automatically.
+
+---
+
+### 3. Essential Commands
+
+Use the bundled [`Makefile`](Makefile) for single-word workflow commands:
+
+| Task | Makefile Command | Typst CLI Equivalent |
+|:---|:---|:---|
+| **Live Watch & Auto-Recompile (Light)** | `make watch` | `typst watch --font-path assets/fonts main.typ output.pdf` |
+| **Live Watch & Auto-Recompile (Dark)** | `make watch-dark` | `typst watch --font-path assets/fonts --input theme=dark main.typ output-dark.pdf` |
+| **Build Light PDF** | `make build` | `typst compile --font-path assets/fonts main.typ output.pdf` |
+| **Build Dark PDF** | `make dark` | `typst compile --font-path assets/fonts --input theme=dark main.typ output-dark.pdf` |
+| **Build Both Themes** | `make` | *(Compiles both `output.pdf` and `output-dark.pdf`)* |
+| **Export PNG Previews** | `make previews` | `pdftoppm -png -r 150 output.pdf assets/preview/demo-light-page` |
+| **Clean Output Files** | `make clean` | `rm -f output.pdf output-dark.pdf assets/preview/demo-*.png` |
+
+---
+
+### 4. Minimal Starter Boilerplate
+
+To start a fresh document from scratch, create a `.typ` file (e.g., `report.typ` or overwrite `main.typ`) with this lightweight template:
 
 ```typst
 #import "prelude.typ": *
 
 #show: document-template.with(
-  title: "Cloud Engine Specification",
-  subtitle: "High-Throughput Stream Processing Architecture",
-  organization: "ENGINEERING RESEARCH LABS",
-  author: ("Alex Mercer", "Core Infrastructure Team"),
+  title: "Engineering Technical Specification",
+  subtitle: "High-Availability Distributed Storage Engine",
+  organization: "INFRASTRUCTURE ENGINEERING GROUP",
+  author: "Jane Doe",
   date: auto,
-  version: "Release 1.0.0",
+  version: "v1.0.0",
   domain: "Distributed Infrastructure / Cloud Computing",
   abstract: [
-    This specification outlines the architecture, consensus mechanics, and benchmark results of the cloud streaming engine.
+    This specification describes the consensus architecture, fault-tolerance mechanisms, and benchmark performance of the next-generation distributed storage engine.
   ],
-  cover-page: true,
-  toc: true,
-  lof: true,
-  lot: true,
+  cover-page: true, // Set to false to omit the executive cover page
+  toc: true,        // Set to false to omit Table of Contents
+  lof: false,       // List of Figures
+  lot: false,       // List of Tables
 )
 
 = Executive Overview
 
-Traditional data pipelines face severe latency bottlenecks under burst workloads.
+Write your executive summary, system context, and primary problem statements here.
 
 #callout(title: "In Simple Words: Conceptual Analogy", label: "SYSTEM ANALOGY")[
   Instead of polling a database periodically like a guard walking down a hallway, the engine uses an event radar that detects and routes traffic dynamically.
@@ -160,14 +218,6 @@ Traditional data pipelines face severe latency bottlenecks under burst workloads
 #takeaway(title: "Architectural Principle", label: "DESIGN PRINCIPLE")[
   Logs are the single source of truth. State is simply the current fold of an ordered event log.
 ]
-
-= Engineering Challenges & Solutions
-
-#challenge-box(
-  challenge: "Distributed Clock Drift & Skew",
-  problem: [NTP clock drift of up to 45ms caused causal event ordering inversions across nodes.],
-  solution: [Formulated hybrid logical clocks (HLC) combining physical UNIX timestamps with monotonic logical counters.]
-)
 
 = System Observability & Telemetry
 
@@ -178,7 +228,22 @@ Traditional data pipelines face severe latency bottlenecks under burst workloads
   metric-card(title: "Availability", value: "99.999%", change: "Zero Downtime", change-positive: true),
 )
 
-== Terminal Deployment
+= Engineering Challenges & Solutions
+
+#challenge-box(
+  challenge: "Distributed Clock Drift & Skew",
+  problem: [NTP clock drift of up to 45ms caused causal event ordering inversions across nodes.],
+  solution: [Formulated hybrid logical clocks (HLC) combining physical UNIX timestamps with monotonic logical counters.]
+)
+
+= Technical Implementation & Logs
+
+```rust
+pub fn process_event(event: Event) -> Result<(), EngineError> {
+    log::info!("Handling event: {:?}", event.id);
+    Ok(())
+}
+```
 
 #consoleblock[
   #text(fill: rgb("#38bdf8"))[\$] git clone https://github.com/acme/cloud-engine.git\
@@ -188,12 +253,27 @@ Traditional data pipelines face severe latency bottlenecks under burst workloads
 ]
 ```
 
+> [!TIP]
+> For a complete showcase demonstrating all widgets, zebra tables, status badges, tech tags, step-flow timelines, and LaTeX-style math proofs, see [`main.typ`](main.typ).
+
+---
+
+### 5. Recommended Editor Setup
+
+For the most responsive live editing experience with visual preview:
+
+1. Open this repository folder in **VS Code**.
+2. Install the **[Tinymist Typst](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist)** extension (`myriad-dreamin.tinymist`).
+3. Press `Ctrl+K V` (or click the preview icon in the editor toolbar) to launch the instant side-by-side preview panel.
+4. **Embedded Fonts:** The workspace includes [`.vscode/settings.json`](.vscode/settings.json) pre-configured with `"tinymist.fontPaths": ["assets/fonts"]`, ensuring Roboto and SF Mono render identically in your editor without manual setup.
+
 ---
 
 ## Project Structure
 
 ```text
 typst-document-template/
+├── .vscode/               # VS Code workspace settings (Tinymist font path)
 ├── prelude.typ            # Single entrypoint importing and exporting everything
 ├── template.typ           # Master document-template function (geometry, headers, show rules)
 ├── main.typ               # Comprehensive demonstration document
