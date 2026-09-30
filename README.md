@@ -42,66 +42,66 @@ Below is a visual showcase of the compiled document pages in both **Light** and 
 
 ### 1. Executive Cover Page & Outlines
 
-| Light Theme | Dark Theme |
-|:---:|:---:|
-| **Page 1: Title, Abstract & Executive Metadata Card** | **Page 1: Title, Abstract & Executive Metadata Card** |
-| ![Light Cover Page](assets/preview/demo-light-page-01.png) | ![Dark Cover Page](assets/preview/demo-dark-page-01.png) |
-| **Page 2: Table of Contents & List of Figures** | **Page 2: Table of Contents & List of Figures** |
-| ![Light TOC & Figures](assets/preview/demo-light-page-02.png) | ![Dark TOC & Figures](assets/preview/demo-dark-page-02.png) |
-| **Page 3: List of Tables** | **Page 3: List of Tables** |
+|                          Light Theme                           |                          Dark Theme                          |
+| :------------------------------------------------------------: | :----------------------------------------------------------: |
+|     **Page 1: Title, Abstract & Executive Metadata Card**      |    **Page 1: Title, Abstract & Executive Metadata Card**     |
+|   ![Light Cover Page](assets/preview/demo-light-page-01.png)   |   ![Dark Cover Page](assets/preview/demo-dark-page-01.png)   |
+|        **Page 2: Table of Contents & List of Figures**         |       **Page 2: Table of Contents & List of Figures**        |
+| ![Light TOC & Figures](assets/preview/demo-light-page-02.png)  | ![Dark TOC & Figures](assets/preview/demo-dark-page-02.png)  |
+|                   **Page 3: List of Tables**                   |                  **Page 3: List of Tables**                  |
 | ![Light Tables Outline](assets/preview/demo-light-page-03.png) | ![Dark Tables Outline](assets/preview/demo-dark-page-03.png) |
 
 ### 2. Executive Overview & Paradigm Shift
 
-| Light Theme | Dark Theme |
-|:---:|:---:|
-| **Page 4: Executive Overview & Architectural Comparison Table** | **Page 4: Executive Overview & Architectural Comparison Table** |
+|                            Light Theme                             |                            Dark Theme                            |
+| :----------------------------------------------------------------: | :--------------------------------------------------------------: |
+|  **Page 4: Executive Overview & Architectural Comparison Table**   | **Page 4: Executive Overview & Architectural Comparison Table**  |
 | ![Light Executive Overview](assets/preview/demo-light-page-04.png) | ![Dark Executive Overview](assets/preview/demo-dark-page-04.png) |
-| **Page 5: Paradigm Shift, Highlight Boxes & Concept Callout** | **Page 5: Paradigm Shift, Highlight Boxes & Concept Callout** |
-| ![Light Paradigm Shift](assets/preview/demo-light-page-05.png) | ![Dark Paradigm Shift](assets/preview/demo-dark-page-05.png) |
+|   **Page 5: Paradigm Shift, Highlight Boxes & Concept Callout**    |  **Page 5: Paradigm Shift, Highlight Boxes & Concept Callout**   |
+|   ![Light Paradigm Shift](assets/preview/demo-light-page-05.png)   |   ![Dark Paradigm Shift](assets/preview/demo-dark-page-05.png)   |
 
 ### 3. Architecture, Invariants & Topologies
 
-| Light Theme | Dark Theme |
-|:---:|:---:|
-| **Page 6: End-to-End System Architecture Diagram** | **Page 6: End-to-End System Architecture Diagram** |
-| ![Light System Architecture](assets/preview/demo-light-page-06.png) | ![Dark System Architecture](assets/preview/demo-dark-page-06.png) |
+|                               Light Theme                               |                               Dark Theme                                |
+| :---------------------------------------------------------------------: | :---------------------------------------------------------------------: |
+|           **Page 6: End-to-End System Architecture Diagram**            |           **Page 6: End-to-End System Architecture Diagram**            |
+|   ![Light System Architecture](assets/preview/demo-light-page-06.png)   |    ![Dark System Architecture](assets/preview/demo-dark-page-06.png)    |
 | **Page 7: Step-Flow Timeline, Left-Bar Box, Card Box & Key-Value Grid** | **Page 7: Step-Flow Timeline, Left-Bar Box, Card Box & Key-Value Grid** |
-| ![Light Containers & Topology](assets/preview/demo-light-page-07.png) | ![Dark Containers & Topology](assets/preview/demo-dark-page-07.png) |
+|  ![Light Containers & Topology](assets/preview/demo-light-page-07.png)  |   ![Dark Containers & Topology](assets/preview/demo-dark-page-07.png)   |
 
 ### 4. Engineering Challenges & Problem Resolutions
 
-| Light Theme | Dark Theme |
-|:---:|:---:|
-| **Page 8: Clock Drift & Network Partitioning Challenge Boxes** | **Page 8: Clock Drift & Network Partitioning Challenge Boxes** |
+|                                 Light Theme                                  |                                 Dark Theme                                 |
+| :--------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
+|        **Page 8: Clock Drift & Network Partitioning Challenge Boxes**        |       **Page 8: Clock Drift & Network Partitioning Challenge Boxes**       |
 | ![Light Engineering Challenges 1 & 2](assets/preview/demo-light-page-08.png) | ![Dark Engineering Challenges 1 & 2](assets/preview/demo-dark-page-08.png) |
-| **Page 9: Configuration Console & Memory Backpressure Challenge** | **Page 9: Configuration Console & Memory Backpressure Challenge** |
-| ![Light Configuration & Challenge 3](assets/preview/demo-light-page-09.png) | ![Dark Configuration & Challenge 3](assets/preview/demo-dark-page-09.png) |
+|      **Page 9: Configuration Console & Memory Backpressure Challenge**       |     **Page 9: Configuration Console & Memory Backpressure Challenge**      |
+| ![Light Configuration & Challenge 3](assets/preview/demo-light-page-09.png)  | ![Dark Configuration & Challenge 3](assets/preview/demo-dark-page-09.png)  |
 
 ### 5. Observability, Telemetry & Real-Time Monitoring
 
-| Light Theme | Dark Theme |
-|:---:|:---:|
-| **Page 10: Real-Time Operations Console & 3x Metric KPI Cards** | **Page 10: Real-Time Operations Console & 3x Metric KPI Cards** |
+|                                 Light Theme                                  |                                 Dark Theme                                 |
+| :--------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
+|       **Page 10: Real-Time Operations Console & 3x Metric KPI Cards**        |      **Page 10: Real-Time Operations Console & 3x Metric KPI Cards**       |
 | ![Light Operations Console & Metrics](assets/preview/demo-light-page-10.png) | ![Dark Operations Console & Metrics](assets/preview/demo-dark-page-10.png) |
-| **Page 11: Subsystem Status Badges, Protocol Tags & Tech Chips** | **Page 11: Subsystem Status Badges, Protocol Tags & Tech Chips** |
-| ![Light Badges & Chips](assets/preview/demo-light-page-11.png) | ![Dark Badges & Chips](assets/preview/demo-dark-page-11.png) |
+|       **Page 11: Subsystem Status Badges, Protocol Tags & Tech Chips**       |      **Page 11: Subsystem Status Badges, Protocol Tags & Tech Chips**      |
+|        ![Light Badges & Chips](assets/preview/demo-light-page-11.png)        |        ![Dark Badges & Chips](assets/preview/demo-dark-page-11.png)        |
 
 ### 6. Empirical Benchmarks & Operational Alerts
 
-| Light Theme | Dark Theme |
-|:---:|:---:|
+|                                            Light Theme                                            |                                            Dark Theme                                             |
+| :-----------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
 | **Page 12: Quantitative Benchmarks Table & Operational Alert Suite (Info, Tip, Warning, Danger)** | **Page 12: Quantitative Benchmarks Table & Operational Alert Suite (Info, Tip, Warning, Danger)** |
-| ![Light Benchmarks & Alerts](assets/preview/demo-light-page-12.png) | ![Dark Benchmarks & Alerts](assets/preview/demo-dark-page-12.png) |
+|                ![Light Benchmarks & Alerts](assets/preview/demo-light-page-12.png)                |                 ![Dark Benchmarks & Alerts](assets/preview/demo-dark-page-12.png)                 |
 
 ### 7. Code Implementation, Formal Proofs & Conclusion
 
-| Light Theme | Dark Theme |
-|:---:|:---:|
+|                                Light Theme                                |                                Dark Theme                                 |
+| :-----------------------------------------------------------------------: | :-----------------------------------------------------------------------: |
 | **Page 13: Rust Codeblock with Line Numbers, Terminal Console & Inlines** | **Page 13: Rust Codeblock with Line Numbers, Terminal Console & Inlines** |
-| ![Light Codeblock & Terminal](assets/preview/demo-light-page-13.png) | ![Dark Codeblock & Terminal](assets/preview/demo-dark-page-13.png) |
-| **Page 14: Quorum Intersection Mathematical Proof & Conclusion** | **Page 14: Quorum Intersection Mathematical Proof & Conclusion** |
-| ![Light Formal Proof & Conclusion](assets/preview/demo-light-page-14.png) | ![Dark Formal Proof & Conclusion](assets/preview/demo-dark-page-14.png) |
+|   ![Light Codeblock & Terminal](assets/preview/demo-light-page-13.png)    |    ![Dark Codeblock & Terminal](assets/preview/demo-dark-page-13.png)     |
+|     **Page 14: Quorum Intersection Mathematical Proof & Conclusion**      |     **Page 14: Quorum Intersection Mathematical Proof & Conclusion**      |
+| ![Light Formal Proof & Conclusion](assets/preview/demo-light-page-14.png) |  ![Dark Formal Proof & Conclusion](assets/preview/demo-dark-page-14.png)  |
 
 ---
 
@@ -136,13 +136,13 @@ Get your professional document up and running in **under 30 seconds**.
 
 Ensure [Typst](https://typst.app/) (v0.11+) is installed on your system:
 
-| Platform | Installation Command |
-|:---|:---|
-| **macOS** | `brew install typst` |
-| **Linux (Arch)** | `sudo pacman -S typst` |
-| **Linux (Fedora)** | `sudo dnf install typst` |
-| **Linux / Ubuntu (Cargo)** | `cargo install --locked typst-cli` |
-| **Windows** | `winget install Typst.Typst` *(or `scoop install typst`)* |
+| Platform                   | Installation Command                                      |
+| :------------------------- | :-------------------------------------------------------- |
+| **macOS**                  | `brew install typst`                                      |
+| **Linux (Arch)**           | `sudo pacman -S typst`                                    |
+| **Linux (Fedora)**         | `sudo dnf install typst`                                  |
+| **Linux / Ubuntu (Cargo)** | `cargo install --locked typst-cli`                        |
+| **Windows**                | `winget install Typst.Typst` _(or `scoop install typst`)_ |
 
 > [!TIP]
 > Verify your installation by running `typst --version` in your terminal.
@@ -171,15 +171,15 @@ make watch
 
 Use the bundled [`Makefile`](Makefile) for single-word workflow commands:
 
-| Task | Makefile Command | Typst CLI Equivalent |
-|:---|:---|:---|
-| **Live Watch & Auto-Recompile (Light)** | `make watch` | `typst watch --font-path assets/fonts main.typ output.pdf` |
-| **Live Watch & Auto-Recompile (Dark)** | `make watch-dark` | `typst watch --font-path assets/fonts --input theme=dark main.typ output-dark.pdf` |
-| **Build Light PDF** | `make build` | `typst compile --font-path assets/fonts main.typ output.pdf` |
-| **Build Dark PDF** | `make dark` | `typst compile --font-path assets/fonts --input theme=dark main.typ output-dark.pdf` |
-| **Build Both Themes** | `make` | *(Compiles both `output.pdf` and `output-dark.pdf`)* |
-| **Export PNG Previews** | `make previews` | `pdftoppm -png -r 150 output.pdf assets/preview/demo-light-page` |
-| **Clean Output Files** | `make clean` | `rm -f output.pdf output-dark.pdf assets/preview/demo-*.png` |
+| Task                                    | Makefile Command  | Typst CLI Equivalent                                                                 |
+| :-------------------------------------- | :---------------- | :----------------------------------------------------------------------------------- |
+| **Live Watch & Auto-Recompile (Light)** | `make watch`      | `typst watch --font-path assets/fonts main.typ output.pdf`                           |
+| **Live Watch & Auto-Recompile (Dark)**  | `make watch-dark` | `typst watch --font-path assets/fonts --input theme=dark main.typ output-dark.pdf`   |
+| **Build Light PDF**                     | `make build`      | `typst compile --font-path assets/fonts main.typ output.pdf`                         |
+| **Build Dark PDF**                      | `make dark`       | `typst compile --font-path assets/fonts --input theme=dark main.typ output-dark.pdf` |
+| **Build Both Themes**                   | `make`            | _(Compiles both `output.pdf` and `output-dark.pdf`)_                                 |
+| **Export PNG Previews**                 | `make previews`   | `pdftoppm -png -r 150 output.pdf assets/preview/demo-light-page`                     |
+| **Clean Output Files**                  | `make clean`      | `rm -f output.pdf output-dark.pdf assets/preview/demo-*.png`                         |
 
 ---
 
@@ -187,7 +187,7 @@ Use the bundled [`Makefile`](Makefile) for single-word workflow commands:
 
 To start a fresh document from scratch, create a `.typ` file (e.g., `report.typ` or overwrite `main.typ`) with this lightweight template:
 
-```typst
+````typst
 #import "prelude.typ": *
 
 #show: document-template.with(
@@ -246,12 +246,13 @@ pub fn process_event(event: Event) -> Result<(), EngineError> {
 ```
 
 #consoleblock[
-  #text(fill: rgb("#38bdf8"))[\$] git clone https://github.com/acme/cloud-engine.git\
-  #text(fill: rgb("#38bdf8"))[\$] cd cloud-engine && make build\
-  #text(fill: rgb("#4ade80"))[==> Compiling light document to output.pdf...]\
-  #text(fill: rgb("#4ade80"))[==> Done: output.pdf]
+    #text(fill: rgb("#38bdf8"))[\$] git clone https://github.com/acme/cloud-engine.git\
+    #text(fill: rgb("#38bdf8"))[\$] cd cloud-engine && make build\
+    #text(fill: rgb("#4ade80"))[==> Compiling light document to output.pdf...]\
+    #text(fill: rgb("#4ade80"))[==> Done: output.pdf]
 ]
-```
+
+````
 
 > [!TIP]
 > For a complete showcase demonstrating all widgets, zebra tables, status badges, tech tags, step-flow timelines, and LaTeX-style math proofs, see [`main.typ`](main.typ).
@@ -373,18 +374,19 @@ To render the cover page standalone without the wrapper, call `#render-cover-pag
 
 All callout components automatically inherit the active theme palette:
 
-| Component | Default Accent | Purpose |
-|---|---|---|
-| `#callout(title: ..., label: ...)[body]` | Blue (`#2563eb`) | Plain-English explanation / Conceptual analogy |
-| `#takeaway(title: ..., label: ...)[body]` | Green (`#16a34a`) | Architectural principle / Key takeaway |
-| `#challenge-box(challenge: ..., problem: ..., solution: ...)` | Orange (`#ea580c`) | Operational problem & engineering resolution |
-| `#info(title: ..., label: ...)[body]` | Sky (`#0284c7`) | Informational notice |
-| `#warning(title: ..., label: ...)[body]` | Amber (`#d97706`) | Operational precaution or caveat |
-| `#danger(title: ..., label: ...)[body]` | Crimson (`#dc2626`) | High-severity invariant or security alert |
-| `#tip(title: ..., label: ...)[body]` | Mint (`#16a34a`) | Pro-tip or performance recommendation |
-| `#highlight-box(variant: "green")[body]` | Multi-color | Standout centered contrast box (blue, green, red, amber, neutral) |
+| Component                                                     | Default Accent      | Purpose                                                           |
+| ------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------- |
+| `#callout(title: ..., label: ...)[body]`                      | Blue (`#2563eb`)    | Plain-English explanation / Conceptual analogy                    |
+| `#takeaway(title: ..., label: ...)[body]`                     | Green (`#16a34a`)   | Architectural principle / Key takeaway                            |
+| `#challenge-box(challenge: ..., problem: ..., solution: ...)` | Orange (`#ea580c`)  | Operational problem & engineering resolution                      |
+| `#info(title: ..., label: ...)[body]`                         | Sky (`#0284c7`)     | Informational notice                                              |
+| `#warning(title: ..., label: ...)[body]`                      | Amber (`#d97706`)   | Operational precaution or caveat                                  |
+| `#danger(title: ..., label: ...)[body]`                       | Crimson (`#dc2626`) | High-severity invariant or security alert                         |
+| `#tip(title: ..., label: ...)[body]`                          | Mint (`#16a34a`)    | Pro-tip or performance recommendation                             |
+| `#highlight-box(variant: "green")[body]`                      | Multi-color         | Standout centered contrast box (blue, green, red, amber, neutral) |
 
 #### Example: Challenge & Resolution Box
+
 ```typst
 #challenge-box(
   challenge: "Distributed Clock Drift",
@@ -427,6 +429,7 @@ Display high-level KPIs, performance uplifts, and latency stats:
 ### 4. Container Blocks: Left-Bar, Cards & Key-Value Grids
 
 - **Left-Bar Invariant Box:**
+
   ```typst
   #left-bar-box(bar-color: secondary-color)[
     *Linearizable Consensus Invariant (Axiom 1.1):* Committed log entries are guaranteed to be present across all subsequent leaders.
@@ -434,6 +437,7 @@ Display high-level KPIs, performance uplifts, and latency stats:
   ```
 
 - **Card Box with Header & Footer:**
+
   ```typst
   #card-box(
     title: "Cluster Topology Specification",
@@ -457,6 +461,7 @@ Display high-level KPIs, performance uplifts, and latency stats:
 ### 5. Code Blocks, Terminal Consoles & Inlines (SF Mono)
 
 - **Standard Code Block with Line Numbers & Tab:**
+
   ```typst
   #codeblock(lang: "rust", filename: "src/consensus/raft.rs", line-numbers: true)[
     pub async fn apply_entry(&self, entry: LogEntry) -> Result<u64, Error> {
@@ -466,6 +471,7 @@ Display high-level KPIs, performance uplifts, and latency stats:
   ```
 
 - **Terminal Console Block:**
+
   ```typst
   #consoleblock[
     #text(fill: rgb("#38bdf8"))[\$] typst compile main.typ output.pdf\
@@ -495,6 +501,7 @@ Tables automatically use alternating zebra fills (`table.header-bg`, `even-bg`, 
 ### 7. Status Badges, Tech Tags & Protocol Chips
 
 - **Operational Status Badges:**
+
   ```typst
   #status-badge("allow", label: "ONLINE")      // Green ONLINE badge
   #status-badge("alert_admin", label: "WARN")  // Amber WARN badge
@@ -527,6 +534,7 @@ Visualize multi-step workflows with styled sequence badges and arrows:
 ### 9. Table of Contents & Outlines
 
 Configured inside `document-template`:
+
 - `toc: true` generates the Table of Contents.
 - `lof: true` appends the List of Figures.
 - `lot: true` appends the List of Tables.
@@ -539,10 +547,13 @@ Configured inside `document-template`:
 The template provides two calibrated palettes: **Light** (default) and **Dark**.
 
 To compile in dark mode:
+
 ```bash
 typst compile --font-path assets/fonts --input theme=dark main.typ output-dark.pdf
 ```
+
 Or with `make`:
+
 ```bash
 make dark
 ```
